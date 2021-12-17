@@ -1,0 +1,93 @@
+.container{
+    width: 90%;
+    overflow: hidden;
+    background: lightgray;
+    margin: 20px auto;
+    padding: 20px;
+    
+
+
+}
+
+.container ul{
+    padding: 0px;
+    margin: 20px;
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    
+}
+
+.container ul li1{
+    list-style: none;
+    float: left;
+    width: 95%;
+    height: 150px;
+    background: darkgray;
+    margin: 5px;
+    border-style: solid;
+    
+}
+
+.container ul li2{
+    list-style: none;
+    float: left;
+    width: 95%;
+    height: 150px;
+    background: darkgray;
+    margin: 5px;
+    border-style: solid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    
+}
+
+.container ul li3{
+    list-style: none;
+    float: left;
+    width: 95%;
+    height: 150px;
+    background: darkgray;
+    margin: 5px;
+    border-style: solid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    
+    
+}
+
+
+.container ul li1 .title{
+    float: right;
+    height: 50px;
+    width: 80px;
+    line-height: 50px;
+    background: darksalmon;
+    text-align: center; 
+    border-style: solid;
+    
+}
+
+
+.container ul li2 .title{
+    float: right;
+    width: 80px;
+    height: 50px;
+    line-height: 50px;
+    background:border-box red;
+    text-align: center; 
+    background-position: right;
+    border-style: solid;
+    
+}
+
+
+.container ul li3 .title{
+    float: right;
+    width: 80px;
+    height: 50px;
+    line-height: 50px;
+    background:  darkorange;
+    text-align: center;
+    border-style: solid;
+     
+}
